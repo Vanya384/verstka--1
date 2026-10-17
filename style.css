@@ -236,11 +236,12 @@ h1{
         color:#489DFF;
     }
     .social_networks{
-        width:130px;
+        width:18px;
         height:18px;
         display:flex;
         justify-content:flex-end;
         gap: 8px;
+        margin-bottom:24px;
     }
     a{
         text-decoration:none;
