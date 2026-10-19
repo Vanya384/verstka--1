@@ -139,13 +139,12 @@ h1{
 }
 header{
     height: 80px;
+}
+main{
+    margin-top: 80px;
     border-width:552px;
     border-bottom:20px;
     border-color:#F3F3F3;
-}
-main{
-    height: 1002px;
-    margin-top: 80px;
 }
     h1{
         margin-top: 20px;
@@ -154,6 +153,9 @@ main{
         color:#1C1E23;
         font-weight:400;
         font-family:"Poppins";
+        border-top:1px solid #F3F3F3;
+        width: 552px;
+        padding-top: 20px;
     }
     .logo{
         display: flex;
@@ -172,8 +174,9 @@ main{
     }
     .first_row{
         display: flex;
-        margin-bottom: 72px;
         margin-top: 44px;
+        flex-wrap: wrap;
+        margin-bottom: 42px;
     }
 
     .first{
@@ -185,14 +188,13 @@ main{
         height:260px;
         border-radius:7px;
     }
-    .second_row{
-        display: flex;
-        margin-bottom: 72px;
-        margin-top: 44px;
-    }
     .third{
         margin-left: 32px;
         margin-right: 16px;
+        margin-top: 72px;
+    }
+    .fourth{
+        margin-top:72px;
     }
     h2{
         font-size:20px;
@@ -203,8 +205,10 @@ main{
     h3{
         font-size:16px;
         color:#489DFF;
-        font-weight: 400;
+        font-weight:500;
         font-family:"Poppins";
+        margin-top: 8px;
+        margin-bottom: 16px;
     }
     h4{
         border-radius: 7px;
@@ -225,7 +229,6 @@ main{
         font-style: normal;
     }
     .footer{
-        margin:24px;
         size:12px;
         font-family:"Poppins";
         width:552px;
@@ -236,8 +239,10 @@ main{
         align-items:center;
         font-weight:400;
         color:#525F7F;
-        margin-bottom:24px;
-        border-top:
+        margin:24px;
+        margin-top:20px;
+        border-top:1px solid #F3F3F3;
+        padding-top: 24px;
     }
     .text1{
         margin-top:24px;
